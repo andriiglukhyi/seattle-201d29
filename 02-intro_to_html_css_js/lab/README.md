@@ -1,7 +1,7 @@
 
 # Assignment Overview: Lab for Class 2
 
-- Your assignment will be to create an "About Me" HTML and JS project. These are two separate projects that live in two separate Git/GitHub repositories
+- Your assignment will be to create an "About Me" HTML and JS project. This will be a single repository that contains a single project.
 
 - When working with GitHub repositories, there are a couple of things to remember that will make your life a lot easier:
 
