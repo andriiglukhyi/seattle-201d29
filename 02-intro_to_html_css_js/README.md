@@ -1,21 +1,7 @@
-# Class 2: Basics of JS and HTML, including Arrays; CSS Introduction
+# Class 2: Basics of JS and HTML, CSS Introduction
 
 <a id="top"></a>
 # Today's Plan: Week 1, Tuesday Lecture
-
-#### Quiz 1 will be published this afternoon. It will be due at 8:59am Thursday morning
-
-#### Class Roadmap for Today
-
-*Expect lecture to go to about 12:15 today, as it will most days. We'll take 2 breaks during that time, then you'll have the entire afternoon in lab.*
-
-- Code Review [30 minutes]
-- [Topics from HTML readings](#html) *[20 minutes]*
-- [Topics from CSS readings](#css) *[20 minutes]*
-- *10 minute break*
-- [Topics from JS readings, and linter setup](#js) *[45 minutes]*
-- *10 minute break*
-- [Review lab assignment, code demo, `git clone`](#code) *[30 minutes]*
 
 ####Announcements:
  - More about quizzes:
@@ -37,7 +23,7 @@
 As a result of completing Day 2 of Code 201, students will:
 
 - Demonstrate understanding of the fundamental structures of HTML, including `<DOCTYPE>`, `<head>`, `<title>`, `<body>`, and `<script>`, as measured by successful completion of the daily code assignment and a quiz administered in Canvas
-- Demonstrate understanding of and make use of assorted data types such as booleans, strings, integers, floats in JavaScript, as measured by successful completion of the daily code assignment and a quiz administered in Canvas
+- Demonstrate understanding of and make use of assorted data types such as booleans, strings, integers, in JavaScript, as measured by successful completion of the daily code assignment and a quiz administered in Canvas
 - Demonstrate understanding of and make use of introductory CSS concepts and techniques from Chapter 10 of the textbook, as measured by successful completion of the daily code assignment and a quiz administered in Canvas
 - Be able to successfully manage a code project in the command line by using Git branches and by doing pushes and pulls to/from a repository on GitHub.
 
