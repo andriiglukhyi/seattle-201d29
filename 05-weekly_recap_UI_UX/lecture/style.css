@@ -1,0 +1,89 @@
+/* app styles */
+
+body {
+  font-family: helvetica;
+}
+
+header {
+  background: #444;
+  height: 100px;
+  margin-bottom: 30px;
+}
+
+header section {
+  width: 960px;
+  margin: 0 auto;
+}
+
+header section img {
+  margin-top: 12px;
+  float: left;
+  margin-right: 20px;
+}
+
+header section li {
+  color: #fff;
+  display: inline-block;
+  margin-top: 45px;
+  margin-right: 80px;
+  font-size: 20px;
+}
+
+main {
+  width: 960px;
+  margin: 30px auto;
+}
+
+.sub-banners li {
+  float: left;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
+.sub-banners li:last-child {
+  margin-right: 0;
+}
+
+.featured-section {
+  clear: both;
+}
+
+.featured-section img {
+  float: left;
+  margin-top: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.featured-section div {
+  margin-top: 30px;
+  width: 300px;
+  float: left;
+}
+
+.featured-section div h2 {
+  font-size: 26px;
+  margin-bottom: 5px;
+  text-shadow: 1px 1px 1px red;
+}
+
+.featured-section div p {
+  line-height: 30px;
+  height: 300px;
+  overflow: auto;
+}
+
+button {
+  border: none;
+  padding: 8px 36px;
+  color: #fff;
+  background: rgb(0, 0, 0);
+  font-size: 21px;
+  border-radius: 3px;
+}
+
+footer {
+  height: 150px;
+  background: #888;
+  clear: both;
+}
