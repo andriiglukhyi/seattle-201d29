@@ -30,13 +30,80 @@ var pikePlaceMarket = {
     this.calcCustsEachHour();
     for(var i = 0; i < hours.length; i++){
       var oneHour = Math.ceil(this.custsEachHour[i] * this.avgCookiesPerCust);
-      console.log(oneHour, 'one hour');
+      // console.log(oneHour, 'one hour');
       this.cookiesEachHour.push(oneHour);
       this.totalDailySales += oneHour;
-      console.log(this.totalDailySales, 'total');
+      // console.log(this.totalDailySales, 'total');
     }
   },
   render: function(){
+    this.calcCookiesEachHour();
+    // access the element in the DOM where our stuff will go
+    var ulEl = document.getElementById('pike');
+    // console.log(ulEl, 'ulEl');
+    for(var i = 0; i < hours.length; i++){
 
+      // create an element
+      var liEl = document.createElement('li');
+
+      // give it content
+      // 11am: 77 cookies
+      liEl.textContent = hours[i] + ': ' + this.cookiesEachHour[i] + ' cookies';
+
+      // append it to the parent
+      ulEl.appendChild(liEl);
+    }
+    liEl = document.createElement('li');
+    liEl.textContent = 'Total: ' + this.totalDailySales + ' cookies';
+    ulEl.appendChild(liEl);
   }
 }
+
+var seatacAirport = {
+  name: 'Seatac Airport',
+  minCustsPerHour: 3,
+  maxCustsPerHour: 24,
+  avgCookiesPerCust: 1.2,
+  custsEachHour: [],
+  cookiesEachHour: [],
+  totalDailySales: 0,
+  calcCustsEachHour: function(){
+    for(var i = 0; i < hours.length; i++){
+      this.custsEachHour.push(random(this.minCustsPerHour, this.maxCustsPerHour));
+    }
+  },
+  calcCookiesEachHour: function(){
+    this.calcCustsEachHour();
+    for(var i = 0; i < hours.length; i++){
+      var oneHour = Math.ceil(this.custsEachHour[i] * this.avgCookiesPerCust);
+      // console.log(oneHour, 'one hour');
+      this.cookiesEachHour.push(oneHour);
+      this.totalDailySales += oneHour;
+      // console.log(this.totalDailySales, 'total');
+    }
+  },
+  render: function(){
+    this.calcCookiesEachHour();
+    // access the element in the DOM where our stuff will go
+    var ulEl = document.getElementById('seatac');
+    // console.log(ulEl, 'ulEl');
+    for(var i = 0; i < hours.length; i++){
+
+      // create an element
+      var liEl = document.createElement('li');
+
+      // give it content
+      // 11am: 77 cookies
+      liEl.textContent = hours[i] + ': ' + this.cookiesEachHour[i] + ' cookies';
+
+      // append it to the parent
+      ulEl.appendChild(liEl);
+    }
+    liEl = document.createElement('li');
+    liEl.textContent = 'Total: ' + this.totalDailySales + ' cookies';
+    ulEl.appendChild(liEl);
+  }
+}
+
+pikePlaceMarket.render();
+seatacAirport.render();
