@@ -20,25 +20,26 @@
 
 // Something like this would then make Jeff:
 // var jeff = new Student('Jeff', 'G', 24);
-var mahClass = [];
+var briansClass = [];
 
-function Student(yo, lastInitial, faveNumber){
-  this.course = '201d4';
-  this.firstName = yo;
+// Constructor Function
+function Student(firstName, lastInitial, faveNum) {
+  this.course = '201d29';
+  this.firstName = firstName;
   this.lastInitial = lastInitial;
-  this.faveNumber = faveNumber;
+  this.faveNumber = faveNum;
   this.isCodeNinja = true;
-  this.intro =  function() {
+  this.intro = function() {
     console.log('My name is ' + this.firstName + ' and my favorite number is ' + this.faveNumber);
   };
-  mahClass.push(this);
-  // console.log(this);
-  // alert('NEW STUDENT CREATED');
+  briansClass.push(this);
 };
 
-var jeff = new Student('Jeff', 'G', 24);
-var susan = new Student('Susan', 'B', 11);
-var miguel = new Student('Miguel', 'A', 4);
+
+new Student('Tama', 'R', 32);
+new Student('Jay', 'A', 11);
+new Student('Katy', 'R', 13);
+
 
 // What if I wanted to make an array of students?
 // var mahClass = [jeff, susan, miguel];
