@@ -114,3 +114,6 @@ function renderCatRows(){
 // Now we need to call our functions: the one for the header row, and the one for generating the individual cat rows
 makeHeaderRow();
 renderCatRows();
+makeHeaderRow();
+makeHeaderRow();
+makeHeaderRow();
