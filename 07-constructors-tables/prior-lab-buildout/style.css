@@ -6,3 +6,7 @@
 body {
   background: #ccc;
 }
+
+td {
+  border: 1px solid black;
+}
