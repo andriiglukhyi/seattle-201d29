@@ -1,7 +1,7 @@
 # Lab for Class 12 (Week 3, Tuesday)
 ### New Bus Mall Technical Goal
 
-- Using ChartJS, display your vote totals in a **bar chart**.
+- Using ChartJS, display your vote totals in a **bar chart** (or any other chart that you would like).
 
 - The size and look of your chart is up to you, as well as whether you continue to display any images once the chart is drawn.
 
