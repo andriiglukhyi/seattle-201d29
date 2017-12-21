@@ -1,4 +1,4 @@
-# Class 13: Add Local Storage to Your Vote Tracker; UI/UX Concepts
+# Class 13: Add Local Storage to Your Vote Tracker
 
 <a id="top"></a>
 ## Today's Plan: Week 3, Wednesday Lecture
@@ -12,24 +12,6 @@
 
 	- Do note, though, that you can still be resourceful and use books, Google, a REPL, whatever, to answer the questions.
 
----
-
-- **[Final Projects discussion](#projects)**
-
-- **Code Review**
-
-***10 minute break***
-
-- **[Persistence and Local Storage with Allie](#ls)**
-
-***10 minute break***
-
-- **[UI/UX discussion with Sam](#uiux)**
-
-- **Review today's lab assignment**
-
----
-
 **Learning Objectives**
 
 As a result of completing Day 13 of Code 201, students will:
@@ -40,9 +22,6 @@ As a result of completing Day 13 of Code 201, students will:
 ## Readings
 
 - [Read this article on local storage](http://diveintohtml5.info/storage.html)
-
-<a id="uiux"></a>
-## UI & UX discussion
 
 Let's have a discussion on UI/UX, and also look at a few websites (some awesome, some kind of randomly chosen) relating to design and interaction.
 
@@ -62,17 +41,3 @@ When you start with your own projects, one of the things you will be fully respo
 ## Local Storage (with code demo)
 
 Let's learn about local storage!
-
-[-top-](#top)
-
-<a id="Projects"></a>
-## Discussion on Final Projects
-
-- Review project assignment specifications
-- Discuss process for selecting projects and setting teams
-- FAQ
-  - Are all of the requirements firm? (No, there is room for negotiation, but variances must be pre-approved)
-  - Can teams use API data? (Generally no, there are ways to mock that up more in line with our  technical command at this point. That's covered extensively in 301)
-  - What can teams use outside of the good ole HTML, CSS, JS, etc.? Are there any approved libraries? (It's easier to name the excluded libraries: jQuery, any CSS libraries/frameworks such as Bootstrap or Skeleton. It's OK to use other libraries or utilities like ChartJS or Google Maps, but we'll discuss them as part of reviewing your project plan.)
-
-[-top-](#top)
